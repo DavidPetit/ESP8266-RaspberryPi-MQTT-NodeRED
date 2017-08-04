@@ -19,7 +19,7 @@ The Raspberry Pi is setup as a WiFi access point so that the ESP8266 sensors can
 
 ### Software
 #### For ESP8266 boards
-* Program like the in .ino from this repo to flash on ESP8266
+* Program like the .ino file from this repo to flash on ESP8266
 #### For Rapsberry Pi
 * Raspbian (https://www.raspberrypi.org/downloads/raspbian/)
 * MQTT Broker (I use Mosquitto: https://mosquitto.org/download/)
