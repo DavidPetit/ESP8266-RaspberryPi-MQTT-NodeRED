@@ -25,6 +25,7 @@ The Raspberry Pi is setup as a WiFi access point so that the ESP8266 sensors can
 * Raspbian (https://www.raspberrypi.org/downloads/raspbian/)
 * MQTT Broker (I use Mosquitto: https://mosquitto.org/download/)
 * Node-RED (https://nodered.org/)
+* node-red-dashboard (https://github.com/node-red/node-red-dashboard)
 #### For developement computer
 * Arduino IDE (on computer for ESP8266 development and being able to flash programs on the boards)
 
@@ -55,7 +56,7 @@ To flash the program that will read the data and send with MQTT, connect the D1 
 ## Installation for Raspberry Pi
 
 ### Hardware
-It depends on what screen you have, case, etc. My setup looks like this:
+My setup looks like this:
 
 <img src="https://github.com/DavidPetit/ESP8266-RaspberryPi-MQTT-NodeRED/blob/master/raspberrypi_screen_1.jpg" width="400">
 
@@ -70,9 +71,12 @@ Once your Raspberry pi is ready and running, install a MQTT broker (Mosquitto):
 sudo apt-get install Mosquitto
 ```
 
-Install node-RED:
-https://nodered.org/docs/hardware/raspberrypi
+Install node-RED: https://nodered.org/docs/hardware/raspberrypi
+
+Install node-red-dashboard: https://github.com/node-red/node-red-dashboard
 
 With node-RED, create a flow that will subscribe to the MQTT Broker and display the data on a dashboard.
+
+Set up Chromium as a kiosk : https://github.com/elalemanyo/raspberry-pi-kiosk-screen and set it up to open the URL of node-RED dashboard ``` http://localhost:1880/ui ```
 
 
