@@ -11,10 +11,10 @@ The Raspberry Pi is setup as a WiFi access point so that the ESP8266 sensors can
 ## Requirements
 
 ### Hardware
-* At least one ESP8266 board (I am using Wemos D1 Mini https://wiki.wemos.cc/products:d1:d1_mini)
-* At least one sensor connected to a ESP8266 board (I am using Wemos SHT30 shield https://wiki.wemos.cc/products:d1_mini_shields:sht30_shield)
+* At least one ESP8266 board (I use Wemos D1 Mini https://wiki.wemos.cc/products:d1:d1_mini)
+* At least one sensor connected to ESP8266 board (I use Wemos SHT30 shield https://wiki.wemos.cc/products:d1_mini_shields:sht30_shield)
 * One Raspberry Pi (model 3 is prefered https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
-* A LCD screen for the Raspberry Pi (I am using a 3.5 Inches LCD touch screen for example https://www.aliexpress.com/item/Best-Price-Original-3-5-LCD-TFT-Touch-Screen-Display-for-Raspberry-Pi-2-Model-B/32508151978.html)
+* A LCD screen for the Raspberry Pi (I use a 3.5 Inches LCD touch screen for example https://www.aliexpress.com/item/Best-Price-Original-3-5-LCD-TFT-Touch-Screen-Display-for-Raspberry-Pi-2-Model-B/32508151978.html)
 * A computer to do the setup on Rapsberry Pi and on the ESP8266 boards
 
 ### Software
