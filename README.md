@@ -1,7 +1,7 @@
 # ESP8266-RaspberryPi-MQTT-NodeRED
 ESP8266 MQTT Sensors to Raspberry Pi dashboard using NodeRED
 
-I built a dashboard with a Raspberry Pi to display sensors data. The Raspberry Pi has a screen. The dashboard is powered by NodeRED and displayed on Chromium on Kiosk node.
+I built a dashboard with a Raspberry Pi to display sensors data. The Raspberry Pi has a screen. The dashboard is powered by NodeRED and displayed on Chromium in Kiosk node.
 The Raspberry Pi is setup as a WiFi access point so that the ESP8266 sensors can communicate directly to the Raspberry Pi through WiFi in MQTT.
 
 ## Requirements
